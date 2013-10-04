@@ -13,8 +13,17 @@ ccsd_2013
   $ cd ccsd_2013
   ```
 
-###コンソールでの編集###
+###他の人の行なった編集の取り込み###
+  ```
+  $ git fetch origin/master
+  $ git merge
+  ```
 
+###コンソールでの編集###
+自分のブランチの作成
+  ```
+  $ git checkout -b <自分のID>
+  ```
 エディタを使って<自分のID>.htmlを作成
   ```
   $ vim <自分のID>.html
