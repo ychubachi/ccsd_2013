@@ -4,17 +4,30 @@ ccsd_2013
 このブランチで行うテストの内容
 -----
 
-###レポジトリのクローン###
+###Vagrantの開始・SSH接続###
   ```
   $ vagrant up
   $ vagrant ssh
   $ cd /vagrant/work
+  ```
+  
+###レポジトリのクローン###
+  ```
   $ git clone git@github.com:ychubachi/ccsd_2013.git
   $ cd ccsd_2013
   ```
 
-###コンソールでの編集###
+###他の人の行なった編集の取り込み###
+  ```
+  $ git fetch origin/master
+  $ git merge origin/master
+  ```
 
+###コンソールでの編集###
+自分のブランチの作成
+  ```
+  $ git checkout -b <自分のID>
+  ```
 エディタを使って<自分のID>.htmlを作成
   ```
   $ vim <自分のID>.html
