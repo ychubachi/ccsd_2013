@@ -1,6 +1,11 @@
 ccsd_2013
 =========
 
+事前準備
+-----
++ [Vagrant環境のセットアップ](https://github.com/ychubachi/vagrant_enpit_package "ychubachi/vagrant_enpit_package")
+
+
 このブランチで行うテストの内容
 -----
 
@@ -19,7 +24,7 @@ ccsd_2013
 
 ###他の人の行なった編集の取り込み###
   ```
-  $ git fetch origin/master
+  $ git fetch
   $ git merge origin/master
   ```
 
